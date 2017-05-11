@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////
 //	Name: Playlist Renamer												//
-//	Version: 1.0														//
+//	Version: 1.1														//
 //	Author: Hayk Voskanyan												//
 //																		//
 //	Description:	This program reads the *.wpl music playlist file	//
