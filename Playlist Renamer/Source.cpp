@@ -53,7 +53,7 @@ void main()
 		// Check for the beginning of sequence part in a playlist script.
 		if (line == "        <seq>")
 		{
-			int i = 0;
+			int i = 1;
 
 			while (getline(playlist, line))
 			{
@@ -82,7 +82,18 @@ void main()
 				// Convert the sequence number to the string.
 				ostringstream convert;   // stream used for the conversion
 				convert << i;
-				sequenceNumb = convert.str();
+				if (i < 10)
+				{
+					sequenceNumb = "00" + convert.str();
+				}
+				else if (i >= 10 && i < 100)
+				{
+					sequenceNumb = "0" + convert.str();
+				}
+				else
+				{
+					sequenceNumb = convert.str();
+				}
 
 				// Construct the new name of the file adding a sequence number at the beginning.
 				string renamedAudio;
