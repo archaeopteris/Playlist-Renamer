@@ -5,4 +5,5 @@ Note:	The executable program should be placed in the same folder with audio file
 
 You can find the source file in "Playlist Renamer" folder. Also the compiled program with sample music files and a sample playlist is under "Debug" folder.
 
-Feel free to use this program. If you are thinking to use it for commercial purposes, don't forget to mention me as an author of it.
+Feel free to use this program.
+If you are thinking to use it for commercial purposes, don't forget to mention me as an author of it.
